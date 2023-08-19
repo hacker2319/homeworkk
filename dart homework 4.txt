@@ -1,0 +1,216 @@
+1chisi 
+import 'dart:io';
+import 'dart:math';
+void main(){
+
+ stdout.write('a=');
+ int a = int.parse(stdin.readLineSync()!);
+ stdout.write('a=');
+ int b = int.parse(stdin.readLineSync()!);
+
+ int sum = 0;
+ int couter = 0;
+
+ for(int i=a;i<b;i++){
+  if(i%3==0){
+   couter ++;
+   sum=sum+i;
+  }
+ }
+ print("bo'linadigan sonlar:$couter yigindi esa:$sum '");
+
+
+}
+
+2chisi 
+import 'dart:io';
+import 'dart:math';
+void main(){
+
+ stdout.write('a=');
+ int a = int.parse(stdin.readLineSync()!);
+
+ int sum = 0;
+ for(int i=0;i<=a;i++){
+  if(i%2==0){
+   sum=sum+i;
+  }
+ }
+ print("yigindi esa:$sum ");
+
+
+}
+
+3chisi
+import 'dart:io';
+import 'dart:math';
+void main(){
+
+ stdout.write('a=');
+ int a = int.parse(stdin.readLineSync()!);
+
+ int sum = 0;
+ for(int i=0;i<=a;i++){
+  if(i%5==0){
+   sum=sum+i;
+  }
+ }
+ print("yigindi esa:$sum ");
+
+
+}
+
+4chisi
+import 'dart:io';
+import 'dart:math';
+void main(){
+
+ stdout.write('a=');
+ int a = int.parse(stdin.readLineSync()!);
+
+ int counter = 0;
+ for(int i=0;i<a;i++){
+  if(i%2==0){
+   counter++;
+   print(i);
+  }
+
+ }
+ print("juft sonlar soni:$counter");
+}
+
+
+5chisi
+import 'dart:io';
+import 'dart:math';
+void main(){
+
+ stdout.write('a=');
+ int a = int.parse(stdin.readLineSync()!);
+ stdout.write('b=');
+ int b = int.parse(stdin.readLineSync()!);
+ int sum = 0;
+ int counter = 0;
+ for(int i=a;i<b;i++){
+  sum+=i;
+ }
+ print("a va b sonlar orasidagi sonlar yig'indisi:$sum");
+}
+6chisi
+import 'dart:io';
+import 'dart:math';
+void main(){
+
+ stdout.write('a=');
+ int a = int.parse(stdin.readLineSync()!);
+ int sum = 0;
+ for(int i=0;i<=a;i++){
+  sum+=i;
+ }
+ print("sonlar yig'indisi:$sum");
+}
+7chisi
+import 'dart:io';
+import 'dart:math';
+void main(){
+
+ stdout.write('a=');
+ int a = int.parse(stdin.readLineSync()!);
+
+ stdout.write('b=');
+ int b = int.parse(stdin.readLineSync()!);
+ int sum = 0;
+ for(int i=a;i<=b;i++){
+  if(i%2==0){
+sum++;
+  }
+ }
+ print("a va b sonlar orasidagi juft sonlar:$sum");
+}
+8chisi
+import 'dart:io';
+import 'dart:math';
+void main(){
+
+ stdout.write('a=');
+ int a = int.parse(stdin.readLineSync()!);
+
+ stdout.write('b=');
+ int b = int.parse(stdin.readLineSync()!);
+ int sum = 0;
+ for(int i=a;i<=b;i++){
+  if(i>0){
+   sum++;
+  }
+ }
+ print("toq sonlar sonlar:$sum");
+}
+
+9chisi
+import 'dart:io';
+import 'dart:math';
+void main(){
+
+ stdout.write('a=');
+ int a = int.parse(stdin.readLineSync()!);
+
+ stdout.write('b=');
+ int b = int.parse(stdin.readLineSync()!);
+ int sum = 0;
+ for(int i=a;i<=b;i++){
+  if(i%2==0 &&i%3==0){
+sum++;
+  }
+ }
+ print("sonlar:$sum");
+}
+10chisi
+import 'dart:io';
+import 'dart:math';
+void main(){
+
+ stdout.write('a=');
+ int a = int.parse(stdin.readLineSync()!);
+ stdout.write('n=');
+ int n = int.parse(stdin.readLineSync()!);
+ int sum = 0;
+ for(int i=0;i<a;i++){
+  sum=a*a;
+  }
+ print("sonlar:$sum");
+ }
+
+11chisi
+import 'dart:io';
+import 'dart:math';
+void main(){
+
+ stdout.write('a=');
+ int a = int.parse(stdin.readLineSync()!);
+ int sum = 1;
+ for(int i=1;i<=5;i++){
+ sum *=a;
+  }
+ print(sum);
+ }
+12chisi
+import 'dart:io';
+import 'dart:math';
+void main(){
+
+ stdout.write('a=');
+ int a = int.parse(stdin.readLineSync()!);
+ int sum = 0;
+ for(int i=1;i<a;i++){
+  if(a%i==0){
+   sum +=i;
+  }
+
+  }
+ if(sum == a){
+  print(true);
+ }else{
+  print(false);
+ }
+ }
+13
